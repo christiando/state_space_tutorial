@@ -1,0 +1,6 @@
+matplotlib
+numpy
+matplotlib
+pykalman
+ipykernel
+pre-commit
