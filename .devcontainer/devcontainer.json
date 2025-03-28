@@ -1,6 +1,7 @@
 {
     "name": "state-space-tutorial Container",
     "build": {
+      "context": "..",
       "dockerfile": "Dockerfile"
     },
     "customizations": {
@@ -14,6 +15,5 @@
     },
     "mounts": [
       "source=vscode-extensions,target=/root/.vscode-server/extensions,type=volume"
-    ],
-    "postCreateCommand": "pip install -r requirements.txt"
+    ]
   }
